@@ -3,12 +3,22 @@
 
 
 1:下载zip中插件
+
+
 2:进入goland安装文件中
 GoLand.app/Contents/plugins/
 新建一个janf文件夹
 文件夹中包含：
 目录：config、plugins
 文件：ja-netfilter.jar、janf_config.txt
+
+janf_config.txt内容：
+
+
+[MyMap]
+EQUAL,licenseeName->HeiPiKD
+EQUAL,gracePeriodDays->30
+EQUAL,paidUpTo->2099-12-31
 
 
 3:config中含有四个文件：
