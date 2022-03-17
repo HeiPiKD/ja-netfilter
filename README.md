@@ -16,37 +16,57 @@ janf_config.txt内容：
 
 
 [MyMap]
+
+
 EQUAL,licenseeName->HeiPiKD
+
+
 EQUAL,gracePeriodDays->30
+
+
 EQUAL,paidUpTo->2099-12-31
 
 
 3:config中含有四个文件：
+
+
 dns.conf   native.conf    power.conf   url.conf
 
 dns info:
+
+
 [DNS]
+
+
 ; put dns filter rules here
 
 EQUAL,jetbrains.com
 
 
 native info:
+
+
 ; wrap specified classes
+
 [Class]
 
 
 power info:
+
 ; for replace arguments
+
 [Args]
 
 ; for replace result
+
 [Result]
 
 url info:
+
 ; put url filter rules here
 
 [URL]
+
 PREFIX,https://dbeaver.com/lmp/checkLicense
 PREFIX,https://store.smartgit.com/check
 PREFIX,https://account.jetbrains.com/lservice/rpc/validateKey.action
