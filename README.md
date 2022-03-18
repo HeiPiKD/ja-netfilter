@@ -1,6 +1,6 @@
 # ja-netfilter
 激活插件IDE
-
+参考：https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html
 
 1:下载zip中插件
 
