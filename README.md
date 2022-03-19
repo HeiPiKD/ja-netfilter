@@ -1,6 +1,12 @@
 # ja-netfilter
 激活插件IDE
 参考：https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html
+已修改的配置文件在janf.zip
+
+goland Help>Edit Custom VM Options 增加一行：
+
+-javaagent:/Applications/GoLand.app/Contents/plugins/janf/ja-netfilter.jar
+
 
 1:下载zip中插件
 
